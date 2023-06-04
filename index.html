@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My site</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    /> -->
+  </head>
+  <body>
+    <!-- We can create headings using h1 through h6 as tags. -->
+    <h1>This is my github pages site</h1>
+    <h2>A Smaller Heading</h2>
+    <!-- <div class="alert alert-danger" role="alert">Here is my alert!</div> -->
+
+    <!-- The strong and i tags give us bold and italics respectively. -->
+    A <strong>bold</strong> word and an <i>italicized</i> word!
+
+    <!-- We can link to another page (such as cs50's page) using a. -->
+    View the <a href="https://cs50.harvard.edu/">CS50 Website</a>!
+
+    <h6>The Smallest Heading</h6>
+    <button>Click Me!</button>
+
+    <form>
+      <input type="text" placeholder="Full name" name="full_name" />
+      <input type="password" placeholder="Password" name="password" />
+
+      <div id="baz">
+        <input type="radio" value="green" /> Green
+        <input type="radio" value="red" /> Red
+      </div>
+      <div class="baz">
+        <input list="Cities" placeholder="Cities" />
+        <datalist id="Cities">
+          <option value="Valencia"></option>
+          <option value="Madrid"></option>
+          <option value="Oliva"></option>
+        </datalist>
+      </div>
+      <div id="container">
+        <div>1. Some text</div>
+        <div>2. Some text</div>
+        <div>3. Some text</div>
+        <div>4. Some text</div>
+        <div>5. Some text</div>
+        <div>6. Some text</div>
+        <div>7. Some text</div>
+        <div>8. Some text</div>
+      </div>
+      <div id="grid">
+        <div>1.</div>
+        <div>2.</div>
+        <div>3.</div>
+        <div>4.</div>
+        <div>5.</div>
+        <div>6.</div>
+        <div>7</div>
+        <div>8</div>
+      </div>
+
+      <input type="submit" />
+    </form>
+
+    <!-- We used ul for an unordered list and ol for an ordered one. both ordered and unordered lists contain li, or list items. -->
+    An unordered list:
+    <ul>
+      <li>foo</li>
+      <li>bar</li>
+      <li>baz</li>
+    </ul>
+    An ordered list:
+    <ol>
+      <li>foo</li>
+      <li>bar</li>
+      <li>baz</li>
+      <ul>
+        <li>Unordered 1</li>
+        <li>Unordered 2</li>
+      </ul>
+    </ol>
+
+    <!-- Images require a src attribute, which can be either the path to a file on your computer or the link to an image online. It also includes an alt attribute, which gives a description in case the image can't be loaded. -->
+
+    <!-- We can also see above that for some elements that don't contain other ones, closing tags are not necessary. -->
+
+    <!-- Here, we use a br tag to add white space to the page. -->
+    <br />
+    <br />
+
+    <!-- A few different tags are necessary to create a table. -->
+    <table>
+      <thead>
+        <th>Ocean</th>
+        <th>Average Depth</th>
+        <th>Maximum Depth</th>
+      </thead>
+      <tbody>
+        <tr>
+          <!-- Table row -->
+          <td>Pacific</td>
+          <!-- Table data -->
+          <td>4,280 m</td>
+          <td>10,911 m</td>
+        </tr>
+        <tr>
+          <td>Atlantic</td>
+          <td>3,646 m</td>
+          <td>8,486 m</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+  <html></html>
+</html>
